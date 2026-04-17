@@ -1,0 +1,23 @@
+{
+  "name": "pub400-ibmi-mcp",
+  "version": "1.0.0",
+  "description": "PUB400 IBM i MCP Server — Comprehensive MCP for PUB400.COM public IBM i systems",
+  "type": "module",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/index.js",
+    "dev": "tsc --watch"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "ssh2": "^1.16.0",
+    "dotenv": "^16.4.7",
+    "zod": "^3.24.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/ssh2": "^1.15.4",
+    "typescript": "^5.8.0"
+  }
+}
